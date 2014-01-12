@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 
 ## Graphics
 PRODUCT_PACKAGES += \
+    liboverlay \
     copybit.msm7x27a \
     gralloc.msm7x27a \
     hwcomposer.msm7x27a \
@@ -44,6 +45,7 @@ PRODUCT_PACKAGES += \
 
 ## Other HALs
 PRODUCT_PACKAGES += \
+	libbt-vendor \
     camera.msm7x27a \
     lights.msm7x27a \
     gps.msm7x27a \
