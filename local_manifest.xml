@@ -14,5 +14,4 @@
 	<!-- FM Radio -->
     <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="cm-10.2" />
     <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-10.2" />
-    <project path="kernel/samsung/msm7x27a" name="Giugiu19/DirtyKernel-3.0.101" revision="master"/>
 </manifest>
