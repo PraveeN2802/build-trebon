@@ -65,6 +65,14 @@ PRODUCT_COPY_FILES += \
 
 ## GPU firmware
 PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/data.patch.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/data.patch.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-2.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-2.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/otp.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/otp.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/endpointping.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/endpointping.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin \
+    vendor/samsung/msm7x27a-common/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/softmac:system/etc/firmware/ath6k/AR6003/hw2.1.1/softmac \
     vendor/samsung/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/samsung/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
@@ -83,30 +91,30 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
 
 ## OMX
-PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so
+# PRODUCT_COPY_FILES += \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+#    vendor/samsung/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so
