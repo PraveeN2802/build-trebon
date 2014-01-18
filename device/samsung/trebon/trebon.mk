@@ -24,8 +24,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/samsung/trebon/rootdir/GT-S7500.rle:root/GT-S7500.rle
 
-## Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml 
-
 $(call inherit-product, vendor/samsung/trebon/blobs.mk)
