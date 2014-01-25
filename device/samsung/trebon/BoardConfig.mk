@@ -18,10 +18,11 @@
 include device/samsung/msm7x27a-common/BoardConfigCommon.mk
 
 ## Platform
-TARGET_BOOTLOADER_BOARD_NAME := trebon
+TARGET_BOOTLOADER_BOARD_NAME := trebon,samsung
 
 ## Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod/trebon_defconfig
+#TARGET_KERNEL_CONFIG := cyanogenmod/trebon_defconfig
+TARGET_PREBUILT_KERNEL := device/samsung/trebon/kernel
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/trebon/bluetooth
